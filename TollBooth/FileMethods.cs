@@ -66,7 +66,7 @@ namespace TollBooth
                     catch (Exception e)
                     {
                         _log.LogCritical($"Could not upload CSV file: {e.Message}", e);
-                        successful = false;
+                        successful = false; 
                     }
                 }
             }
